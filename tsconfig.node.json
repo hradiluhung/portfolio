@@ -23,7 +23,6 @@
     "noUncheckedSideEffectImports": true,
 
     /* Components */
-    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
