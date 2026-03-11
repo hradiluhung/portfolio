@@ -112,7 +112,7 @@ export default function Home() {
           </p>
           <div className="hero-item mt-8 flex flex-wrap items-center justify-center gap-4">
             <Link to="/works">
-              <Button size="xl">Explore Work</Button>
+              <Button size="xl">Explore Works</Button>
             </Link>
             <a href="https://github.com/hradiluhung" target="_blank" rel="noopener noreferrer">
               <Button size="xl" variant="secondary">
