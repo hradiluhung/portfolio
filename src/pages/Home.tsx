@@ -1,3 +1,4 @@
+import DotWaveBackground from '@/components/DotWaveBackground'
 import { Button } from '@/components/ui/button'
 import { ExternalLink } from 'lucide-react'
 import { useGSAP } from '@gsap/react'
@@ -96,7 +97,7 @@ export default function Home() {
       {/* Hero */}
       <section ref={heroRef} className="border-b">
         <div className="mx-4 sm:mx-8 md:mx-16 lg:mx-24 border-x flex flex-col items-center justify-center min-h-[calc(100vh-112px)] relative bg-background text-center z-0 px-6 sm:px-0">
-          <div className="absolute inset-0 bg-[url('/images/home_hero.svg')] bg-cover bg-center bg-no-repeat opacity-15 dark:invert dark:opacity-10 -z-10" />
+          <DotWaveBackground className="absolute inset-0 h-full w-full opacity-15 dark:invert dark:opacity-10 -z-10" />
           <div className="hero-item border px-3 py-1 rounded-full flex gap-2 items-center text-sm text-secondary-foreground">
             <span className="relative flex h-2 w-2">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
